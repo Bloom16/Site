@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Cadastro do Cliente</h1>  
+  <div id="#formulário">
+<form action="">
+<p>Nome:<br>
+    <input type="text" name="nome" size="40" placeholder="Digite o seu nome">
+</p>
+<p>Telefone:<br>
+    <input type="text" name="telefone" size="40" placeholder="Digite o seu telefone com DDD">
+</p>
+<p>E-mail:<br>
+    <input type="email" name="email" size="40" placeholder="Digite o seu E-mail">
+</p>
+<p>Senha:<br>
+    <input type="password" name="senha1" size="40" placeholder="Digite sua senha">
+</p>
+<p>Confirme a senha:<br>
+    <input type="password" name="senha2" size="40" placeholder="Digite sua senha">
+</p>
+<p>Sugestões e Reclamações:<br>
+<textarea name="observacao" cols="50" rows="5"></textarea></p>
+<p>Ecolha uma região:
+<select name="regiao">
+    <option>    </option>
+    <option>Norte</option>
+    <option>Sul</option>
+    <option>Leste</option>
+    <option>Oeste</option>
+</select>
+</p>
+<p>
+   Você faz compras pela internet com frequência?:<br> 
+   <input type="radio" name="compras" valor="sim">Sim<br>
+   <input type="radio" name="compras" valor="não">Não<br>
+   <input type="radio" name="compras" valor="as vezes">As vezes<br>
+   <input type="radio" name="compras" valor="nunca">Nunca<br>
+</p>
+
+<p>
+    Você pratica algum esporte ou vários?:<br> 
+   <input type="checkbox" name="esporte" valor="Futebol">Futebol<br>
+   <input type="checkbox" name="esporte" valor="Natação">Natação<br>
+   <input type="checkbox" name="esporte" valor="Vôlei">Vôlei<br>
+   <input type="checkbox" name="esporte" valor="Basquete">Basquete<br>
+</p>
+
+<p>
+    <input type="submit" name="enviar" valor="Enviar">  
+    <input type="reset" name="limpar" valor="Limpar"> 
+    <input type="button" name="imprimir" valor="Imprimir" onclick="print()">  
+</p>
+</form>
+</body>
+</html>

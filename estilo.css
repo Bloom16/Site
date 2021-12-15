@@ -1,0 +1,63 @@
+#topo{
+    background-color: aqua;
+    width: 715px;
+    height: 170px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    #menu{
+        background-color:cadetblue;
+        width: 715px;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        }
+    #conteudo{
+        background-color:rgb(202, 207, 198);
+        width: 715px;
+        height: 380px;
+        margin-right: auto;
+        margin-left: auto;
+        }
+    #rodape{
+        background-color:rgb(135, 182, 129);
+        width: 715px;
+        height: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        }
+        #menu ul{
+            padding: 0;
+            margin: 0;  
+            float:left;
+            background-color: #ededed;
+            font-family: tahoma;
+        }
+        #menu li{
+            display: inline;
+    
+        }
+        #menu ul li a{
+            background-color:rgb(51,48,48);
+            color:cadetblue;
+            text-decoration: none;
+            padding:10px 10px;
+            float: left;
+           
+        }
+        #menu ul li a:hover{
+            background-color: #d6d6d6;
+            border-bottom:3px solid #ea0000;
+        }
+        p{
+            text-align:justify;
+        }
+        h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 36;
+        font-style: italic;
+        color:#006;
+        text-align:center;
+        background-color:cornsilk;
+    
+        }    
